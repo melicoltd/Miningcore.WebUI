@@ -23,7 +23,7 @@
 
 
 // read WebURL from current browser
-var WebURL         = window.location.protocol + "//" + window.location.hostname + "/";  // Website URL is:  https://domain.com/
+var WebURL         = "https:" + "//" + "9kpool.com" + "/";  // Website URL is:  https://domain.com/
 // WebURL correction if not ends with /
 if (WebURL.substring(WebURL.length-1) != "/")
 {
@@ -177,7 +177,7 @@ function loadHomePage() {
 		poolCoinTableTemplate += "<td class='fee'>" + value.poolFeePercent + " %</td>";
 		poolCoinTableTemplate += "<td class='net-hash'>" + _formatter(value.networkStats.networkHashrate, 5, "H/s") + "</td>";
 		poolCoinTableTemplate += "<td class='net-diff'>" + _formatter(value.networkStats.networkDifficulty, 5, "") + "</td>";
-		poolCoinTableTemplate += "<td class='card-btn col-hide'>Go Mine " + coinLogo + coinName + "</td>";
+		poolCoinTableTemplate += "<td class='card-btn col-hide'>Mine " + coinName + "</td>";
 		poolCoinTableTemplate += "</tr>";
       });
 

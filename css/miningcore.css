@@ -11,7 +11,7 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   background-color: #eee;
-  color: #3C4858;
+  color: #f9f9f9;
   font-weight: 300;
 }
 
@@ -109,8 +109,8 @@ body {
 .content {
   min-height: 250px;
   padding: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -459,15 +459,15 @@ body {
 .main-index-footer {
   position:absolute;
   width:100%;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 5px;
+  padding-top: 15px;
 
   
   bottom:0; /* stick to bottom */
-  border-top: 1px solid #e7e7e7;
-  background-color: rgb(130, 130, 130);
+  border-top: none;
+  background-color: #263135;
   color: #fff;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -1027,3 +1027,43 @@ div.card-chart {
 	}
 }
 
+/**** =9kpool *****/
+
+.navbar {
+	background:#263135;
+}
+.card .card-header.bg-body {
+	background-color: #263135;
+	color:#f9f9f9;
+	margin:0;
+	padding:20px;
+}
+.card {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+}
+.table th, .table td, .table {background: none;}
+.table {color: #f9f9f9;}
+.table td {padding-left: 12px;}
+#pool-coins img.coinimg {margin-left: 0;}
+#pool-coins tr:hover {
+	background-color:transparent;
+}
+#pool-coins tr, .table td {border-top:1px solid #324044 !important;font-size: 0.85rem;}
+#pool-coins td {font-size: 0.9rem;font-weight: 600;}
+.table-hover tbody tr:hover {color:#f9f9f9;}
+#pool-coins a {color:#ffc107; font-weight: 600;}
+td.card-btn {
+	border: none !important;
+	border-radius: 5px;
+	background-color: #28a745;
+	font-weight: 700;
+	text-transform: none;
+	padding:0.5rem 1.3rem !important;
+	margin-top: 17px;
+}
+td.card-btn:hover {background-color: #1e7e34;}
+#pool-coins td.coin {font-size: 0.9rem;}
+.table th, .table td {padding: 1rem;}
