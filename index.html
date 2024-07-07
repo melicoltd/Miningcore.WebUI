@@ -253,7 +253,7 @@ Apply one or more of the following classes to get the desired effect
       <nav class="navbar navbar-static-top" role="navigation">
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button"><i class="fas fa-bars"></i></a>
 
-        <span class="header-text"><b>Miningcore</b> - making mining easy</span>
+        <span class="header-text"><b>9kpool</b> - making mining easy</span>
 
         <!-- Navbar Right Menu -->
         <div class="navbar-custom-menu">
@@ -277,6 +277,51 @@ Apply one or more of the following classes to get the desired effect
 			<h1>POOL &  NETWORK<small>statistics</small></h1>
 		</section>
 		<div class="content container-fluid">
+
+      <div class="row">
+
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="info-box">
+						<!-- <span class="info-box-icon bg-aqua"><i class="fas fa-bars"></i></span> -->
+						<div class="info-box-content">
+							<span class="info-box-text">blockchain height</span>
+							<span class="info-box-number"><div id="blockchainHeight"></div></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="info-box">
+						<!-- <span class="info-box-icon bg-yellow"><i class="fas fa-dice"></i></span> -->
+						<div class="info-box-content">
+							<span class="info-box-text">pool effort</span>
+							<span class="info-box-number"><div id="poolEffort"></div></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="info-box">
+						<!-- <span class="info-box-icon bg-red"><i class="fas fa-trophy"></i></span> -->
+						<div class="info-box-content">
+							<span class="info-box-text">payment threshold</span>
+							<span class="info-box-number"><span id="minimumPayment"></span>/<span id="payoutScheme"></span></span>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="info-box">
+						<!-- <span class="info-box-icon bg-green"><i class="fas fa-chart-pie"></i></span> -->
+						<div class="info-box-content">
+							<span class="info-box-text">pool fee</span>
+							<span class="info-box-number"><div id="poolFeePercent"></div></span>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- /.row -->
 
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
@@ -313,50 +358,7 @@ Apply one or more of the following classes to get the desired effect
 				</div>
 			</div>
 
-			<div class="row">
-
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-					<div class="info-box">
-						<span class="info-box-icon bg-aqua"><i class="fas fa-bars"></i></span>
-						<div class="info-box-content">
-							<span class="info-box-text">blockchain height</span>
-							<span class="info-box-number"><div id="blockchainHeight"></div></span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-					<div class="info-box">
-						<span class="info-box-icon bg-yellow"><i class="fas fa-dice"></i></span>
-						<div class="info-box-content">
-							<span class="info-box-text">pool effort</span>
-							<span class="info-box-number"><div id="poolEffort"></div></span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-					<div class="info-box">
-						<span class="info-box-icon bg-red"><i class="fas fa-trophy"></i></span>
-						<div class="info-box-content">
-							<span class="info-box-text">payment threshold</span>
-							<span class="info-box-number"><div id="minimumPayment"></div></span>
-							<span class="info-box-number"><div id="payoutScheme"></div></span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-					<div class="info-box">
-						<span class="info-box-icon bg-green"><i class="fas fa-chart-pie"></i></span>
-						<div class="info-box-content">
-							<span class="info-box-text">pool fee</span>
-							<span class="info-box-number"><div id="poolFeePercent"></div></span>
-						</div>
-					</div>
-				</div>
-
-			</div><!-- /.row -->
+			
 
 
 
@@ -872,14 +874,14 @@ Apply one or more of the following classes to get the desired effect
   </div>
 
   <footer class="main-footer">
-	<strong><a target="_blank" href="https://github.com/minernl/Miningcore.WebUI">&copy; <script>document.write(new Date().getFullYear())</script> made by COINStoMINE.eu</a></strong>
+	<strong><a target="_blank" href="https://9kpool.com">&copy; <script>document.write(new Date().getFullYear())</script> 9kpool.com</a></strong>
   </footer>
 
   </div> <!-- end main-pool -->
 
 </div> <!-- end wrapper -->
 
-  <!-- Miningcore JS -->
+  <!-- 9kpool JS -->
   <script type="text/javascript">
     $(document).ready(function() {
       loadIndex();
